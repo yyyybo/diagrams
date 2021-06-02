@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T10:45:44.583Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="7q50JgFnfgnP1MQS-81m" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-02T02:01:28.929Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="u6BV0DDP6ipi0_wtuaOH" version="14.6.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="2066" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,13 +48,24 @@
         <mxCell id="_RJPB_134TQNbrc5Tolc-58" value="&lt;h1&gt;Pro buffer&lt;/h1&gt;&lt;p&gt;流量高的话，协议可以不使用json，pb二进制省流量。&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;格式需定义&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="295" y="510" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_RJPB_134TQNbrc5Tolc-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_RJPB_134TQNbrc5Tolc-59" target="_RJPB_134TQNbrc5Tolc-75">
+        <mxCell id="_RJPB_134TQNbrc5Tolc-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_RJPB_134TQNbrc5Tolc-44" target="_RJPB_134TQNbrc5Tolc-75">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="980" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="300" />
+              <mxPoint x="740" y="160" />
+              <mxPoint x="840" y="160" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_RJPB_134TQNbrc5Tolc-63" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="_RJPB_134TQNbrc5Tolc-59" target="_RJPB_134TQNbrc5Tolc-75">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_RJPB_134TQNbrc5Tolc-63" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_RJPB_134TQNbrc5Tolc-44" target="_RJPB_134TQNbrc5Tolc-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="300" />
+              <mxPoint x="670" y="160" />
+              <mxPoint x="798" y="160" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="_RJPB_134TQNbrc5Tolc-59" value="&lt;span&gt;配置中心&lt;br&gt;&lt;br&gt;&lt;/span&gt;rk/v2t/order = 订单应用&lt;br&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;rk/v2t/B = B应用&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="shape=card;whiteSpace=wrap;html=1;strokeColor=#ADFF42;fillColor=#6BFF70;" vertex="1" parent="1">
           <mxGeometry x="570" y="30" width="140" height="120" as="geometry" />
@@ -132,7 +143,7 @@
             <mxPoint x="1410" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_RJPB_134TQNbrc5Tolc-89" value="根据协议中的&lt;br&gt;clientId分发" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#ADFF42;fillColor=#F8BDFF;" vertex="1" parent="1">
+        <mxCell id="_RJPB_134TQNbrc5Tolc-89" value="根据协议中的&lt;br&gt;clientId拼接下行&lt;br&gt;topIc" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#ADFF42;fillColor=#F8BDFF;" vertex="1" parent="1">
           <mxGeometry x="1250" y="376" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="_RJPB_134TQNbrc5Tolc-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" edge="1" parent="1" source="_RJPB_134TQNbrc5Tolc-95" target="_RJPB_134TQNbrc5Tolc-41">
@@ -144,7 +155,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_RJPB_134TQNbrc5Tolc-95" value="&lt;span&gt;rk/&lt;/span&gt;service&lt;span&gt;/order/{clinetId}&lt;br&gt;&lt;br&gt;&lt;/span&gt;rk/service/order/A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#ADFF42;fillColor=#F8BDFF;" vertex="1" parent="1">
+        <mxCell id="_RJPB_134TQNbrc5Tolc-95" value="&lt;span&gt;rk/{clientid}/T2V/业务&lt;br&gt;&lt;br&gt;&lt;/span&gt;rk/A/T2V/order" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#ADFF42;fillColor=#F8BDFF;" vertex="1" parent="1">
           <mxGeometry x="1160" y="570" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="_RJPB_134TQNbrc5Tolc-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_RJPB_134TQNbrc5Tolc-96" target="_RJPB_134TQNbrc5Tolc-43">
@@ -157,7 +168,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_RJPB_134TQNbrc5Tolc-96" value="&lt;span&gt;rk/&lt;/span&gt;service&lt;span&gt;/B/{clinetId}&lt;br&gt;&lt;br&gt;&lt;/span&gt;rk/service/B/C&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#ADFF42;fillColor=#F8BDFF;" vertex="1" parent="1">
+        <mxCell id="_RJPB_134TQNbrc5Tolc-96" value="&lt;span&gt;rk/{clientid}/T2V/业务&lt;br&gt;&lt;br&gt;&lt;/span&gt;rk/C/T2V/product&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#ADFF42;fillColor=#F8BDFF;" vertex="1" parent="1">
           <mxGeometry x="1350" y="570" width="140" height="140" as="geometry" />
         </mxCell>
       </root>
